@@ -12,6 +12,6 @@ stop@{shape: dbl-circ, label: "Stop"}
 start-->input
 input-->condition
 condition--True-->code
-condition-->False-->stop
+condition--False-->stop
 code-->condition
 ```
